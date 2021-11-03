@@ -1,0 +1,156 @@
+/*Body Format, Head, Paragraph*/
+body{
+  background-color: rgb(237, 237, 237);
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(78, 170, 164);
+  font-size: 24px;
+  font-weight: bold;
+  text-align:left;
+}
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(78, 170, 164);
+  font-size: 22px;
+  font-weight: bold;
+  text-align:left;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(78, 170, 164);
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+}
+
+p{
+  color: grey;
+  font-size: 15px;
+  padding:8px;
+}
+
+/*Navbar Styling*/
+.navigation .navbar-brand{
+  margin-left: 10px;
+  padding:10px;
+  background-color: rgb(78, 170, 164);
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.navbar{
+  margin-top: 0;
+  margin-bottom:30px;
+  max-height: 55px;
+  background-color: white;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+  background-color:rgb(247, 245, 245)!important; 
+}
+
+.dropdown-item{
+  color: #000000 !important; 
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:rgb(247, 245, 245) !important; 
+}
+
+a{
+  color: #000000;
+  font-size: 15px; 
+}
+
+.nav-link:hover{
+  background-color:rgb(247, 245, 245) !important;
+ }
+
+.navbar-brand:hover{
+color: rgb(164, 164, 164) !important;
+}
+
+/*Image Styling*/
+img{
+  width:100% !important;
+  height:100% !important;
+}
+
+.active, .panel:hover{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.img-thumbnail{
+  width:50% !important;
+  height:50% !important;
+  border:none;
+}
+
+/*Main Page Content Style*/
+.col-md-12{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+
+.col-md-6{
+  background-color: white;
+  padding-top:20px;
+  padding-bottom:40px;
+}
+
+/*Table Formatting*/
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: left;
+  padding:8px;
+  background-color:#f2f2f2;
+  border-bottom:2px solid rgb(210, 210, 210) ;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid rgb(210, 210, 210);
+} 
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color:rgba(30, 193, 177, 0.283);
+}
+
+/* Small Screen Adjustments Media Query*/
+@media(max-width:767px){
+.navbar.bg-light{
+  background-color: rgb(78, 170, 164)!important;    
+}
+
+.navbar-expand-lg{
+  background-color: rgb(78, 170, 164)!important;    
+}
+
+.navbar{
+  max-height: none;  
+  padding:inherit;
+}
+}
